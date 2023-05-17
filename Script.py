@@ -191,16 +191,23 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
+
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
 <b>
+
 ╭─────── • ◆ • ───────╮
-🔅 Dᴀʀᴋ Mᴏᴅᴇ :  <a href="https://t.me/addtheme/DQ_The_File_Donor_Theme">Tᴏᴜᴄʜ</a>
+
+🔅 ᴀᴅᴅ ᴍᴇ :  <a href="http://t.me/Mcu_autofilterboy_robot?startgroup=true">Tᴏᴜᴄʜ</a>
+
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @DQ_The_File_Donor_Bot_Updates
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @DQ_The_File_Donor_Support
+
+▫️ ᴄʜᴀɴɴᴇʟ : @MalayalamCinemaUniverseofficial
+
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe
+
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
