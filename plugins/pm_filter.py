@@ -240,8 +240,8 @@ async def next_page(bot, query):
                 ],
             )
     btn.insert(0, [
-        InlineKeyboardButton("💢Sᴇɴᴅ Aʟʟ Tᴏ PM📂", callback_data=f"send_fall#files#{offset}"),
-        InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs🎬", callback_data=f"select_lang#{req}")
+        InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#files#{offset}"),
+        InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{req}")
     ])
     btn.insert(0, [
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
@@ -352,8 +352,8 @@ async def language_check(bot, query):
             )
         
         btn.insert(0, [
-            InlineKeyboardButton("💢Sᴇɴᴅ Aʟʟ Tᴏ PM📂", callback_data=f"send_fall#{pre}#{0}"),
-            InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs🎬", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}"),
+            InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{userid}")
         ])
 
         btn.insert(0, [
