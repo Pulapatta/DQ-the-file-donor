@@ -214,7 +214,13 @@ Nᴀᴍᴇ - {}"""
 
 =========== • ✠ • ===========
 
- ɴᴀᴍᴇ : </b> <code>{file_name}</code><b>"""
+ =========== • ✠ • ===========
+
+▫️ ᴄʜᴀɴɴᴇʟ : @MalayalamCinemaUniverseofficial
+
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe
+
+=========== • ✠ • ===========b>"""
 
 
 
