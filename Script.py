@@ -202,7 +202,9 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 
-<b>📂 Fɪʟᴇ<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+
+
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
 
 
