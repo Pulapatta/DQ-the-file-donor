@@ -204,27 +204,21 @@ Nᴀᴍᴇ - {}"""
     
     <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
+<b>
 
+╭─────── • ◆ • ───────╮
 
-<b>╭─────── • ◆ • ───────╮
-
-🔅 ᴊᴏɪɴ ɢʀᴏᴜᴩ:  <a href="https://t.me/Malayalam_Cinema_Universe">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
+🔅 ᴀᴅᴅ ᴍᴇ :  <a href="http://t.me/Mcu_autofilterboy_robot?startgroup=true">Tᴏᴜᴄʜ</a>
 
 ╰─────── • ◆ • ───────╯
 
 =========== • ✠ • ===========
 
- =========== • ✠ • ===========
-
 ▫️ ᴄʜᴀɴɴᴇʟ : @MalayalamCinemaUniverseofficial
 
 ▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe
 
-=========== • ✠ • ===========b>"""
-
-
-
-
+=========== • ✠ • ===========</b>"""
 
 
     IMDB_TEMPLATE_TXT = """
