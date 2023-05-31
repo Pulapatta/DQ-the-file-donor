@@ -202,13 +202,13 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>📂 Fɪʟᴇ<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-<b>
+
 
 ╭─────── • ◆ • ───────╮
 
-🔅 ᴀᴅᴅ ᴍᴇ :  <a href="http://t.me/Mcu_autofilterboy_robot?startgroup=true">Tᴏᴜᴄʜ</a>
+🔅 ᴊᴏɪɴ ɢʀᴏᴜᴩ:  <a href="https://t.me/Malayalam_Cinema_Universe">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
 
 ╰─────── • ◆ • ───────╯
 
@@ -221,7 +221,7 @@ Nᴀᴍᴇ - {}"""
 =========== • ✠ • ===========</b>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>Query: {query}
+<b>Rsult: {query}
 IMDb Data:
 
 🏷 Title: <a href={url}>{title}</a>
