@@ -201,12 +201,10 @@ Nᴀᴍᴇ - {}"""
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
     CAPTION = """
+    
+    <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-
-
-<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
-
+<b>
 
 ╭─────── • ◆ • ───────╮
 
@@ -216,11 +214,12 @@ Nᴀᴍᴇ - {}"""
 
 =========== • ✠ • ===========
 
-▫️ ᴄʜᴀɴɴᴇʟ : @MalayalamCinemaUniverseofficial
+ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
 
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe
+<b>"""
 
-=========== • ✠ • ===========</b>"""
+
+
 
     IMDB_TEMPLATE_TXT = """
 <b>Rsult: {query}
