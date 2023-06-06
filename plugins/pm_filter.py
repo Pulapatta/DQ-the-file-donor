@@ -149,6 +149,18 @@ async def next_page(bot, query):
             ]
             for file in files
         ]
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎥 {search} 🎥', 'reqst')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#files#{offset}"),
+            InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{req}"),
+            InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        ]
+    )
     
     try:
         if settings['max_btn']:
@@ -215,13 +227,6 @@ async def next_page(bot, query):
                     InlineKeyboardButton("𝐍𝐄𝐗𝐓 ➪", callback_data=f"next_{req}_{key}_{n_offset}")
                 ],
             )
-    btn.insert(0, [
-        InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#files#{offset}"),
-        InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{req}")
-    ])
-    btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
-    ])
     try:
         await query.edit_message_reply_markup(
             reply_markup=InlineKeyboardMarkup(btn)
@@ -298,15 +303,16 @@ async def language_check(bot, query):
                 ]
                 for file in files
             ]
-        
         btn.insert(0, [
+            InlineKeyboardButton(f'🎥 {search} 🎥', 'reqst')
+        ])
+        btn.insert(1, [
             InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}"),
             InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{userid}")
-        ])
-
-        btn.insert(0, [
             InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
         ])
+
+        
 
         if offset != "":
             key = f"{query.message.chat.id}-{query.message.id}"
@@ -1514,6 +1520,17 @@ async def auto_filter(client, msg, spoll=False):
             ]
             for file in files
         ]
+    btn.insert(0, 
+        [
+            InlineKeyboardButton(f'🎥 {search} 🎥', 'reqst')
+        ]
+    )
+    btn.insert(1,
+        [
+            InlineKeyboardButton(f'🔎 𝐒𝐞𝐚𝐫𝐜𝐡 𝐅𝐨𝐫𝐦𝐚𝐭', 'info'),
+            InlineKeyboardButton("💬 𝐁𝐨𝐭 𝐏𝐌", url=f"https://t.me/{temp.U_NAME}")
+        ]
+    )
     
 
     if offset != "":
