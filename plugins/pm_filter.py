@@ -1529,8 +1529,9 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'🔎 𝐒𝐞𝐚𝐫𝐜𝐡 𝐅𝐨𝐫𝐦𝐚𝐭', 'info'),
-            InlineKeyboardButton("💬 𝐁𝐨𝐭 𝐏𝐌", url=f"https://t.me/{temp.U_NAME}")
+            InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#files#{offset}"),
+            InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{req}"),
+            InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
         ]
     )
     
