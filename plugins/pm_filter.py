@@ -308,7 +308,7 @@ async def language_check(bot, query):
         ])
         btn.insert(1, [
             InlineKeyboardButton("📂Sᴇɴᴅ Aʟʟ Tᴏ PM", callback_data=f"send_fall#{pre}#{0}"),
-            InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{userid}")
+            InlineKeyboardButton("🎬Lᴀɴɢᴜᴀɢᴇs", callback_data=f"select_lang#{userid}"),
             InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
         ])
 
@@ -1438,6 +1438,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ]
             reply_markup = InlineKeyboardMarkup(buttons)
             await query.message.edit_reply_markup(reply_markup)
+    elif query.data == 'reqst':
+        await query.answer("𝖧𝖾𝗒 𝖡𝗋𝗈 😍\n\n🎯 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇 𝖻𝖾𝗅𝗈𝗐 𝖳𝗁𝖾 𝖥𝗂𝗅𝖾𝗌 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖠𝗇𝖽 𝖲𝗍𝖺𝗋𝗍 𝖳𝗁𝖾 𝖡𝗈𝗍 ⬇️", True)
     await query.answer(MSG_ALRT)
 
     
