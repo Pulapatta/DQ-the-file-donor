@@ -1444,6 +1444,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await query.message.edit_reply_markup(reply_markup)
     elif query.data == 'reqst':
         await query.answer("𝖧𝖾𝗒 𝖡𝗋𝗈 😍\n\n🎯 𝖢𝗅𝗂𝖼𝗄 𝖮𝗇 𝖳𝗁𝖾 𝖡𝗎𝗍𝗍𝗈𝗇 𝖻𝖾𝗅𝗈𝗐 𝖳𝗁𝖾 𝖥𝗂𝗅𝖾𝗌 𝖸𝗈𝗎 𝖶𝖺𝗇𝗍 𝖠𝗇𝖽 𝖲𝗍𝖺𝗋𝗍 𝖳𝗁𝖾 𝖡𝗈𝗍 ⬇️", True)
+    elif query.data == 'reqinfo':
+        await query.answer(script.REQINFO, show_alert=True)
+    elif query.data == 'minfo':
+        await query.answer(script.MINFO, show_alert=True)
+    elif query.data == 'sinfo':
+        await query.answer(script.SINFO, show_alert=True)
     await query.answer(MSG_ALRT)
 
     
