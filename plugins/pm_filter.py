@@ -1610,16 +1610,16 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await hehe.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+                    await hehe.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
                     await asyncio.sleep(120)                   
-                    await asyncio.sleep(120)
+                 #   await asyncio.sleep(120)
                     await hehe.delete()
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
-                await hehe.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-                await asyncio.sleep(120)
+                await hehe.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+               # await asyncio.sleep(120)
                 await hehe.delete()
                 await message.delete()
         except (MediaEmpty, PhotoInvalidDimensions, WebpageMediaEmpty):
@@ -1629,15 +1629,15 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await hmm.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-                    await asyncio.sleep(120)
+                    await hmm.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+                    #await asyncio.sleep(120)
                     await hmm.delete()
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
-                await hmm.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-                await asyncio.sleep(120)
+                await hmm.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+                #await asyncio.sleep(120)
                 await hmm.delete()
                 await message.delete()
         except Exception as e:
@@ -1646,15 +1646,15 @@ async def auto_filter(client, msg, spoll=False):
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(600)
-                    await fek.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-                    await asyncio.sleep(120)
+                    await fek.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+                    #await asyncio.sleep(120)
                     await fek.delete()
                     await message.delete()
             except KeyError:
                 await save_group_settings(message.chat.id, 'auto_delete', True)
                 await asyncio.sleep(600)
-                await fek.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-                await asyncio.sleep(120)
+                await fek.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+                #await asyncio.sleep(120)
                 await fek.delete()
                 await message.delete()
     else:
@@ -1662,15 +1662,14 @@ async def auto_filter(client, msg, spoll=False):
         try:
             if settings['auto_delete']:
                 await asyncio.sleep(600)
-                await fuk.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-                await asyncio.sleep(120)
+                await fuk.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
+                #await asyncio.sleep(120)
                 await fuk.delete()
                 await message.delete()
         except KeyError:
             await save_group_settings(message.chat.id, 'auto_delete', True)
             await asyncio.sleep(600)
-            await fuk.edit_caption("Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
-            await asyncio.sleep(120)
+            await fuk.edit_caption(f"Hey {message.from_user.mention}\n\nYour Request Has Been Deleted👍🏻\n(Due To Avoid Copyrights Issue😌)\n\nRequest Again For That Files ❤️")
             await fuk.delete()
             await message.delete()
     if spoll:
