@@ -156,7 +156,7 @@ async def next_page(bot, query):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
+            InlineKeyboardButton(f"📟 Files: {total_results}", callback_data"mm"),
             InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
             InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
         ]
@@ -310,7 +310,7 @@ async def language_check(bot, query):
         )
         btn.insert(1,
             [
-                InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
+                InlineKeyboardButton(f"📟 Files: {total_results}", callback_data"mm"),
                 InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
                 InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
             ]
