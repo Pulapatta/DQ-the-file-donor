@@ -151,14 +151,14 @@ async def next_page(bot, query):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'🎥 {search} 🎥', 'reqst')
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst')
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+            InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
+            InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
+            InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
         ]
     )
     
@@ -305,14 +305,14 @@ async def language_check(bot, query):
             ]
         btn.insert(0, 
             [
-                InlineKeyboardButton(f'🎥 {search} 🎥', 'reqst')
+                InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst')
             ]
         )
         btn.insert(1,
             [
-                InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-                InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-                InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+                InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
+                InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
+                InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
             ]
         )
 
@@ -1534,14 +1534,14 @@ async def auto_filter(client, msg, spoll=False):
         ]
     btn.insert(0, 
         [
-            InlineKeyboardButton(f'🎥 {search} 🎥', 'reqst')
+            InlineKeyboardButton(f'🎬 {search} 🎬', 'reqst')
         ]
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
-            InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
-            InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo')
+            InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
+            InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
+            InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
         ]
     )
     
