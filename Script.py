@@ -202,10 +202,9 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
     
-    <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
+<b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code><b>{file_name}</b></code>
 
 <b>
-
 ╭─────── • ◆ • ───────╮
 
 🔅 ᴊᴏɪɴ ɢʀᴏᴜᴩ :  <a href="https://t.me/Malayalam_Cinema_Universe">ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>
