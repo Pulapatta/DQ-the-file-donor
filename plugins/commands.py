@@ -82,13 +82,11 @@ async def start(client, message):
         except ChatAdminRequired:
             logger.error("Mᴀᴋᴇ sᴜʀᴇ Bᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ Fᴏʀᴄᴇsᴜʙ ᴄʜᴀɴɴᴇʟ")
             return
-        btn = [
-            [
-                InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
-                )
-            ]
-        ]
+        btn = [[
+               InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url=invite_link.invite_link),
+           ], [
+               InlineKeyboardButton(f'Information', 'minfo')
+           ]]
 
         if message.command[1] != "subscribe":
             try:
