@@ -85,7 +85,7 @@ async def start(client, message):
         btn = [[
                InlineKeyboardButton("🤖 Jᴏɪɴ Uᴘᴅᴀᴛᴇ Cʜᴀɴɴᴇʟ", url=invite_link.invite_link),
            ], [
-               InlineKeyboardButton(f'Information', 'minfo')
+               InlineKeyboardButtoIf'🤔 Hᴇʏ Bᴏᴛ...! Wʜʏ Iᴍ ᴊᴏɪɴɪɴɢ', 'grpinfo')
            ]]
 
         if message.command[1] != "subscribe":
