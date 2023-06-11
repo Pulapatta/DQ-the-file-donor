@@ -157,8 +157,8 @@ async def next_page(bot, query):
     btn.insert(1,
         [
             InlineKeyboardButton(f"📟 Files: {total_results}", callback_data="mm"),
-            InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-            InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+            InlineKeyboardButton(f'🎁 Tips', 'minfo'),
+            InlineKeyboardButton(f'🎯 Info', 'reqinfo')
         ]
     )
     
@@ -311,8 +311,8 @@ async def language_check(bot, query):
         btn.insert(1,
             [
                 InlineKeyboardButton(f"📟 Files: {total_results}", callback_data="mm"),
-                InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+                InlineKeyboardButton(f'🎁 Tips', 'minfo'),
+                InlineKeyboardButton(f'🎯 Info', 'reqinfo')
             ]
         )
 
@@ -1511,8 +1511,8 @@ async def auto_filter(client, msg, spoll=False):
     btn.insert(1,
         [
             InlineKeyboardButton(f"📟 Files: {total_results}", callback_data="mm"),
-            InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-            InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo')
+            InlineKeyboardButton(f'🎁 Tips', 'minfo'),
+            InlineKeyboardButton(f'🎯 Info', 'reqinfo')
         ]
     )
     
