@@ -102,7 +102,14 @@ async def start(client, message):
             text="**⚠️ YOU ARE NOT SUBSCRIBED OUR CHANNEL ⚠️\n\n🤗 JOIN ON OUR CHANNEL AND CLICK TRY AGAIN BUTTON TO GET MOVIE✅\n\n⚠️ താങ്കൾ ഞങ്ങളുടെ ചാനൽ സബ്സ്ക്രൈബ് ചെയ്തിട്ട് ഇല്ല!! ⚠️\n\n🤗 ഞങ്ങളുടെ ചാനലിൽ ജോയിൻ ചെയ്യിതിട്ടു Try Again Button Click ചെയ്യുമ്പോൾ movie കിട്ടും✅\n👇👇👇👇👇👇👇👇👇👇👇**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
-            )
+            ),
+        btn = [
+            [
+                InlineKeyboardButton(
+                    "f'Information', 'minfo'
+                )
+            ]
+        ]
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
