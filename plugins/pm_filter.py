@@ -1421,6 +1421,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer(script.MINFO, show_alert=True)
     elif query.data == 'sinfo':
         await query.answer(script.SINFO, show_alert=True)
+    elif query.data == 'grpinfo':
+        await query.answer(script.GRPINFO, show_alert=True)
     await query.answer(MSG_ALRT)
 
     
