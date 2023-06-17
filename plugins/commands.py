@@ -103,7 +103,7 @@ async def start(client, message):
             chat_id=message.from_user.id,
             text=SUB_TXT.format(mention=message.from_user.mention)
             reply_markup=InlineKeyboardMarkup(btn),
-            parse_mode=enums.ParseMode.MARKDOWN
+            parse_mode=enums.ParseMode.DEFAULT
         )
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
