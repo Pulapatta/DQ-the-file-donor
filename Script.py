@@ -217,7 +217,7 @@ Nᴀᴍᴇ - {}"""
 
 ▫️ ᴄʜᴀɴɴᴇʟ : @MalayalamCinemaUniverseofficial
 
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe
+▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Malayalam_Cinema_Universe_Group
 
 ===========•✠•===========</b>"""
     
