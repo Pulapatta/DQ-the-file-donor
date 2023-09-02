@@ -693,10 +693,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                  InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
-               ],[
-                  InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="https://t.me/Rafeeq_Kunnimon")
+                  InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK)
                  ]
                 ]
             )
@@ -1501,7 +1498,6 @@ async def auto_filter(client, msg, spoll=False):
     )
     btn.insert(1,
         [
-            InlineKeyboardButton(f"📟 ꜰɪʟᴇꜱ: {total_results}", callback_data="mm"),
             InlineKeyboardButton(f'🎁 ᴛɪᴩꜱ', 'minfo'),
             InlineKeyboardButton(f'📨 ɪɴꜰᴏ', 'reqinfo')
         ]
