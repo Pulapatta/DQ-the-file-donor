@@ -96,6 +96,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
+        chat_id=message.from_user.id,
         text="""<b>⚠️ ᴘʟᴇᴀsᴇ ғᴏʟʟᴏᴡ ᴛʜɪs ʀᴜʟᴇs ⚠️</b>\n\n<b>{} ആദ്യം【 <a href=https://t.me/MalayalamCinemaUniverseofficial>ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</a> 】എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്തു  ജോയിൻ റിക്വസ്റ്റ് ചെയ്.. എന്നിട്ട് വീണ്ടു ബോട്ടിൽ വന്നിട്ട്【 <a href=https://t.me/+WvnL2V9NXbxlZDc9>ᴍᴇ ᴊᴏɪɴᴇᴅ</a> 】എന്ന ബട്ടൺ ക്ലിക്ക് ചെയ്താൽ ഫയൽ കിട്ടുന്നതായിരിക്കും</b>\n\n<b>Fɪʀsᴛ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ【 <a href=https://t.me/+SYzNTIaQVhoxMzhl>ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ</a> 】ʙᴜᴛᴛᴏɴ ᴀɴᴅ ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ. ᴛʜᴇɴ ᴄᴏᴍᴇ ʙᴀᴄᴋ ᴛᴏ ᴛʜᴇ ʙᴏᴛ ᴄʟɪᴄᴋ ᴏɴ【 <a href=https://t.me/+2Gf-xnqna28xN2Y1>ᴍᴇ ᴊᴏɪɴᴇᴅ</a> 】ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴛʜᴇ ғɪʟᴇ...</b>".format(message.from_user.mention),"""
 
         buttons = [
